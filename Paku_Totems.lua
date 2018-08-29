@@ -1,7 +1,7 @@
 local addonName, addonSpace = ...
 local addon = LibStub('AceAddon-3.0'):NewAddon(addonSpace, addonName, 'AceEvent-3.0')
 
---local L = LibStub('AceLocale-3.0'):GetLocale(addonName)
+local L = LibStub('AceLocale-3.0'):GetLocale(addonName)
 
 local VERSION = GetAddOnMetadata(addonName, 'Version')
 
@@ -18,119 +18,119 @@ local totems = {
   {
     dst = {0.589707016944885,0.110139846801758},
     src = {0.529342889785767,0.113030731678009},
-    name = "The Sliver (North)",
+    name = L["The Sliver (North)"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [1]
   {
     dst = {0.528360247612,0.118593633174896},
     src = {0.591121912002564,0.106748402118683},
-    name = "East Zanchul",
+    name = L["East Zanchul"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [2]
   {
     dst = {0.446326375007629,0.0604671835899353},
     src = {0.528954386711121,0.123093903064728},
-    name = "Top of Zanchul",
+    name = L["Top of Zanchul"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [3]
   {
     dst = {0.527879416942596,0.113702595233917},
     src = {0.447229325771332,0.0580671429634094},
-    name = "East Zanchul",
+    name = L["East Zanchul"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [4]
   {
     dst = {0.527620315551758,0.118496298789978},
     src = {0.532340049743652,0.18929660320282},
-    name = "East Zanchul",
+    name = L["East Zanchul"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [5]
   {
     dst = {0.592305719852448,0.22837620973587},
     src = {0.653485417366028,0.339411973953247},
-    name = "The Sliver (South)",
+    name = L["The Sliver (South)"],
     dstMapID = 1165,
     srcMapID = 862,
   }, -- [6]
   {
     dst = {0.465587317943573,0.197906374931335},
     src = {0.45066511631012,0.052379310131073},
-    name = "Terrace of the Chosen",
+    name = L["Terrace of the Chosen"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [7]
   {
     dst = {0.502696871757507,0.325962483882904},
     src = {0.465993463993073,0.199528515338898},
-    name = "Altar of Pa'ku",
+    name = L["Altar of Pa'ku"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [8]
   {
     dst = {0.499147057533264,0.39557409286499},
     src = {0.495611786842346,0.328776597976685},
-    name = "The Great Seal Ledge",
+    name = L["The Great Seal Ledge"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [9]
   {
     dst = {0.499848961830139,0.434243261814117},
     src = {0.513542056083679,0.409644901752472},
-    name = "The Golden Throne",
+    name = L["The Golden Throne"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [10]
   {
     dst = {0.665206968784332,0.423748135566711},
     src = {0.58306896686554,0.326411426067352},
-    name = "Beastcaller Inn (Warbeast Kraal)",
+    name = L["Beastcaller Inn (Warbeast Kraal)"],
     dstMapID = 862,
     srcMapID = 1165,
   }, -- [11]
   {
     dst = {0.468166947364807,0.856901288032532},
     src = {0.55028235912323,0.417159020900726},
-    name = "Grand Bazaar",
+    name = L["Grand Bazaar"],
     dstMapID = 1165,
     srcMapID = 862,
   }, -- [12]
   {
     dst = {0.551357746124268,0.417158424854279},
     src = {0.469304084777832,0.855770230293274},
-    name = "Terrace of Crafters",
+    name = L["Terrace of Crafters"],
     dstMapID = 862,
     srcMapID = 1165,
   }, -- [13]
   {
     dst = {0.408991038799286,0.107170045375824},
     src = {0.427186667919159,0.229450643062592},
-    name = "West Zanchul",
+    name = L["West Zanchul"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [14]
   {
     dst = {0.425679862499237,0.231258273124695},
     src = {0.407363951206207,0.111508727073669},
-    name = "The Zocalo",
+    name = L["The Zocalo"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [15]
   {
     dst = {0.49884170293808,0.3972989320755},
     src = {0.550585150718669,0.42086488008499},
-    name = "The Great Seal Ledge",
+    name = L["The Great Seal Ledge"],
     dstMapID = 1165,
     srcMapID = 862,
   }, -- [16]
   {
     dst = {0.46906685829163,0.85581636428833},
     src = {0.40843677520752,0.84118854999542},
-    name = "Grand Bazaar",
+    name = L["Grand Bazaar"],
     dstMapID = 1165,
     srcMapID = 1165,
   }, -- [17]

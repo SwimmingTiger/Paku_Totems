@@ -1,8 +1,10 @@
 ## Interface: 80000
 ## Title: Pa'ku Totems
+## Title-zhCN: 帕库的图腾
 ## Author: jaxdahl
 ## Version: 1.32
 ## Notes: Show Pa'ku totem positions on the map and destinations in the tooltip on mouseover.
+## Notes-zhCN: 在地图上显示帕库图腾的位置，并在鼠标指向图腾时提示目的地。
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
@@ -12,5 +14,8 @@ Libs\HereBeDragons-2.0\HereBeDragons-Pins-2.0.lua
 
 Libs\AceAddon-3.0\AceAddon-3.0.xml
 Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+
+Locales\zhCN.lua
 
 Paku_Totems.lua
