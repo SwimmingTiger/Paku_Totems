@@ -162,7 +162,7 @@ function addon:PLAYER_ENTERING_WORLD(event, ...)
 
       local xy, mapid, frame = totem.dst, totem.dstMapID, totem.totemDestFrame
       Pins:AddMinimapIconMap(addonName.."dest", frame, mapid, xy[1],xy[2], true, true)
-      addon:showTotemOnMap(totemID, "TaxiNode_Neutral", true, "dest")
+      addon:showTotemOnMap(totemID, "TaxiNode_Neutral", true, "OVERLAY", "dest")
   end)
 
   --GameTooltip:HookScript("OnUpdate",         function() Pins:RemoveAllWorldMapIcons(addonName.."dest") end)
