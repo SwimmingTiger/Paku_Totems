@@ -15,6 +15,4 @@ L["Beastcaller Inn (Warbeast Kraal)"] = "驭兽师旅店 (战兽栏)"
 L["Grand Bazaar"] = "百商集市"
 L["Terrace of Crafters"] = "工匠平台"
 L["The Zocalo"] = "佐卡罗广场"
-L["The Great Seal Ledge"] = "巨擘封印"
-L["Grand Bazaar"] = "百商集市"
 
